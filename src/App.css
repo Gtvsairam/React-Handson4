@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+body{
+  background-image: linear-gradient(#e8afb9 ,#baf6ba,#e8afb9);
+  background-attachment: fixed;
+}
+
+*{
+  box-sizing: border-box;
+}
+.App {
+  text-align: center;
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-evenly;
+  box-sizing: border-box;
+  background-color: rgba(79, 70, 66, 0.833);
+  padding: 20px;
+  margin: auto;
+  font-family: 'Oleo Script Swash Caps', cursive;
+
+}
+.home-link{
+  text-decoration: none;
+  font-size: 2.4rem;
+  font-weight: bolder;
+  /* color: rgb(32, 28, 28); */
+  color: rgba(247, 245, 238, 0.858);
+  text-shadow: 3px 3px 8px rgba(228, 135, 29, 0.769);
+}
+.home-link:hover{
+  /* color: rgba(247, 245, 238, 0.906); */
+  color: rgba(20, 16, 10, 0.927);
+  text-shadow: 0px 3px 6px rgba(177, 97, 12, 0.769);
+}
+.studentD{
+  font-size: 2.3rem;
+  font-weight: bold;
+  margin-left: 226px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.table1{
+  border: 4px solid rgb(146, 104, 104);
+  background-color: rgb(185, 54, 80);
+  border-collapse: collapse;
+  color: beige;
+  width: 50%;
+  height: 55vh;
+  margin: 50px auto;
+}
+.tablecon tr{
+  text-align: center;
+  padding: 10px;
+  /* border-collapse: collapse; */
+  border: 2px solid rgb(160, 146, 146);
+}
+.student-progress{
+  position: relative;
+  float: right;
+  margin-top: 50px;
+  margin-right: 100px;
+  border-radius: 40px;
+  font-size: 18px;
+  font-weight: bolder;
+  border:none;
+  cursor: pointer;
+  background-color: #2ae4d1e5;
+  color: rgb(0, 0, 0);;
+  box-shadow: 0px 14px 10px #4d9b9ed2;
+  font-family: 'Caveat', cursive;
+  padding: 8px;
+  text-align: center;
+}
+.student-progress:hover{
+  background-color: rgba(25, 126, 226, 0.779);
+   color: rgb(255, 255, 255);
+   box-shadow: 0px 14px 12px rgba(25, 126, 226, 0.71);
+   font-weight: bold;
+}
+h1{
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+
